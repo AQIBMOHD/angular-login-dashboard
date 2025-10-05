@@ -1,0 +1,15 @@
+<div [formGroup]="departmentForm">
+  <h3>Department Form</h3>
+
+  <label>Department Name:</label>
+  <input formControlName="deptName" type="text">
+  <div *ngIf="departmentForm.get('deptName')?.invalid && departmentForm.get('deptName')?.touched">
+    Department name is required
+  </div>
+
+  <label>Location:</label>
+  <input formControlName="location" type="text">
+  <div *ngIf="departmentForm.get('location')?.invalid && departmentForm.get('location')?.touched">
+    Location is required
+  </div>
+</div>

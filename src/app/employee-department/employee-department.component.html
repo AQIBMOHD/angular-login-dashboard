@@ -1,0 +1,18 @@
+<div class="parent-container" [formGroup]="parentForm">
+
+  <h2>Employee-Department Form</h2>
+
+  <!-- Child Employee Form -->
+  <app-employee-form [parentForm]="parentForm"></app-employee-form>
+
+  <!-- Child Department Form -->
+  <app-department-form [parentForm]="parentForm"></app-department-form>
+
+  <!-- Submit Button -->
+  <button
+    class="btn btn-primary"
+    (click)="onSubmit()"
+    [disabled]="!parentForm.valid">
+    Submit
+  </button>
+</div>

@@ -1,0 +1,24 @@
+{
+  "employees": [
+    { "id": 1, "name": "Aqib", "email": "aqib@example.com", "department": "Engineering", "salary": 55000 },
+    { "id": 2, "name": "Farhan", "email": "farhan@example.com", "department": "Engineering", "salary": 60000 },
+    { "id": 3, "name": "Riya", "email": "riya@example.com", "department": "Sales", "salary": 40000 },
+    { "id": 4, "name": "Sneha", "email": "sneha@example.com", "department": "HR", "salary": 35000 },
+    { "id": 5, "name": "Vikas", "email": "vikas@example.com", "department": "Marketing", "salary": 47000 },
+    { "id": 6, "name": "Anjali", "email": "anjali@example.com", "department": "Finance", "salary": 52000 },
+    { "id": 7, "name": "Rohit", "email": "rohit@example.com", "department": "Engineering", "salary": 72000 },
+    { "id": 8, "name": "Sanjeev", "email": "sanjeev@example.com", "department": "Sales", "salary": 45000 },
+    { "id": 9, "name": "Kiran", "email": "kiran@example.com", "department": "HR", "salary": 39000 },
+    { "id": 10, "name": "Priya", "email": "priya@example.com", "department": "Engineering", "salary": 68000 },
+    { "id": 11, "name": "Aman", "email": "aman@example.com", "department": "Finance", "salary": 53000 },
+    { "id": 12, "name": "Deepak", "email": "deepak@example.com", "department": "Engineering", "salary": 75000 },
+    { "id": 13, "name": "Neha", "email": "neha@example.com", "department": "Marketing", "salary": 46000 },
+    { "id": 14, "name": "Arjun", "email": "arjun@example.com", "department": "Engineering", "salary": 80000 },
+    { "id": 15, "name": "Pooja", "email": "pooja@example.com", "department": "Sales", "salary": 42000 },
+    { "id": 16, "name": "Manoj", "email": "manoj@example.com", "department": "HR", "salary": 37000 },
+    { "id": 17, "name": "Alok", "email": "alok@example.com", "department": "Finance", "salary": 55000 },
+    { "id": 18, "name": "Meera", "email": "meera@example.com", "department": "Engineering", "salary": 70000 },
+    { "id": 19, "name": "Rahul", "email": "rahul@example.com", "department": "Sales", "salary": 43000 },
+    { "id": 20, "name": "Divya", "email": "divya@example.com", "department": "Marketing", "salary": 49000 }
+  ]
+}

@@ -1,0 +1,21 @@
+<div [formGroup]="employeeForm">
+  <h3>Employee Form</h3>
+
+  <label>Name:</label>
+  <input formControlName="name" type="text">
+  <div *ngIf="employeeForm.get('name')?.invalid && employeeForm.get('name')?.touched">
+    Name is required
+  </div>
+
+  <label>Email:</label>
+  <input formControlName="email" type="email">
+  <div *ngIf="employeeForm.get('email')?.invalid && employeeForm.get('email')?.touched">
+    Valid email required
+  </div>
+
+  <label>Salary:</label>
+  <input formControlName="salary" type="number">
+  <div *ngIf="employeeForm.get('salary')?.invalid && employeeForm.get('salary')?.touched">
+    Salary must be at least 3000
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.employee-card {
+  padding: 1rem;
+  border-radius: 8px;
+  background: white;
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.search-field {
+  width: 300px;
+}
+
+table {
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+div[formGroup] {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h3 {
+  margin-bottom: 15px;
+  color: #1976d2;
+  border-left: 4px solid #1976d2;
+  padding-left: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #34495e;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+div[formGroup] div {
+  color: red;
+  font-size: 13px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
